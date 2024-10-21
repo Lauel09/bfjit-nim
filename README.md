@@ -32,6 +32,9 @@ To learn Nim lang, and see what else I can do with it.
             # function declaration here  
 
    ```
+  Currently they are like this:
+  ![image](https://github.com/user-attachments/assets/f2758f05-bf19-4341-8fd5-c3be6e52a2a0)
+
   This allows for a better understanding of where does the one methods live. Maybe this suggestion could be bad.
 
 # License
