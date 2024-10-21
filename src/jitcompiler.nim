@@ -1,6 +1,6 @@
 import os, strutils
 import std/syncio
-import options, sequtils
+import options
 
 type 
     OpKind = enum 
@@ -187,10 +187,10 @@ proc scan_tokens*(jc: var JitCompiler) =
         stderr.write("[ERROR] - ", value.what, " at: ", value.pos, "\n")
 
 proc compile*(jc: var JitCompiler) =  
-    echo "Compiling..."
+    echo "Starting interpreter"
     jc.scan_tokens()
 
-    # Executing through the memory
+   # Executing through the memory
     var 
         head = 0
         ip = 0
